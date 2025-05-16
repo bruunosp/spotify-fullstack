@@ -17,12 +17,29 @@ git clone https://github.com/usuario/nome-do-repositório.git
 cd nome-do-repositório
 
 ### 2. Instale as dependências
-npm create vite@latest .
+- npm create vite@latest .
     > Ignore files and continue
     > React
     > Javascript
 
-npm install
+
+Atenção: No primeiro uso, é necessário instalar as dependências separadamente em cada parte do projeto:
+    - Abra três terminais no VSCode ( Ctrl + Shift + ` ).
+    - Em cada terminal, navegue até as seguintes pastas:
+    - Terminal 1: cd ./front-end
+    - Terminal 2: cd ./back-end
+    - Terminal 3: permaneça na pasta raiz do projeto
+    - Execute npm install em cada terminal.
+    ** Para as demais instalações, permaneça na pasta raiz do projeto
+
+- npm install
+- npm install dotenv
+- npm install mongodb
+- npm install express
+- npm install cors
+- npm install axios
+
+- Instale o node.js do site (https://nodejs.org/pt)
 
 ### 🧹 Observação sobre pastas geradas automaticamente
 Ao rodar o comando npm create vite@latest . na pasta raiz do projeto, algumas pastas e arquivos são criados automaticamente na raiz, como:
@@ -47,7 +64,8 @@ Baseado no arquivo .env.example (back-end e front-end), crie um arquivo .env com
 Vai ser necessário abrir dois terminais (ctrl+shift+'):
 Para o back-end:
     cd ./back-end
-    node ./api/api.js
+    npm i donenv
+    node ./api/server.js
 Mensagem: "Servidor está escutando na <port>"
 
 Para o front-end?

@@ -26,8 +26,24 @@ This is the backend of a full stack project inspired by Spotify, developed durin
 -> React
 -> Javascript
 ```
-
+```
+** Important: On your first setup, dependencies must be installed separately for each part of the project:
+    - Open three terminals in VSCode (Ctrl + Shift + `).
+    - In each terminal, navigate to:
+    - Terminal 1: cd ./front-end
+    - Terminal 2: cd ./back-end
+    - Terminal 3: stay in the root folder of the project
+    - Run npm install in each terminal.
+    * For future installations, remain in the root folder of the project.
+```
 - npm install
+- npm install dotenv
+- npm install mongodb
+- npm install express
+- npm install cors
+- npm install axios
+
+- Install node.js from site (https://nodejs.org/pt)
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:

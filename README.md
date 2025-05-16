@@ -35,6 +35,7 @@ For the frontend:
 Then click the link ➜ Local: http://localhost:<port>/
 
 ## 🧾 Folder Structure
+<pre> ```bash
 /
 ├─ back-end/                # Backend code responsible for API and MongoDB connection
 │ ├─ api/
@@ -82,6 +83,7 @@ Then click the link ➜ Local: http://localhost:<port>/
 │ └─ vite.config.js         # Vite configuration
 │
 └─ README.md # Main project documentation
+</pre>
 
 ## 🧠 Features
 

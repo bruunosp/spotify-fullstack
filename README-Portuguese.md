@@ -13,15 +13,34 @@ Este é o backend de um projeto full stack inspirado no Spotify, desenvolvido du
 ## 🚀 Como executar localmente
 
 ### 1. Clone o repositório
-git clone https://github.com/seuusuario/nome-do-repositório.git
+git clone https://github.com/usuario/nome-do-repositório.git
 cd nome-do-repositório
 
 ### 2. Instale as dependências
+npm create vite@latest .
+    > Ignore files and continue
+    > React
+    > Javascript
+
 npm install
+
+### 🧹 Observação sobre pastas geradas automaticamente
+Ao rodar o comando npm create vite@latest . na pasta raiz do projeto, algumas pastas e arquivos são criados automaticamente na raiz, como:
+-> public/
+-> src/ (fora das pastas back-end e front-end)
+-> .gitignore
+-> eslint.config.js
+-> index.html
+-> vite.config.js
+
+Porém, como o projeto já possui essas pastas dentro das pastas específicas back-end e front-end, para evitar confusão e manter a organização, recomenda-se apagar essas pastas e arquivos gerados na raiz.
+
+Assim, você mantém o foco na estrutura organizada e evita duplicidades.
 
 ### 3. Crie um arquivo .env
 Baseado no arquivo .env.example (back-end e front-end), crie um arquivo .env com os dados do seu MongoDB e porta de execução.
     MONGO_URL=your_mongo_connection_string
+        > Se não tiver, crie uma conta no MongoDB: https://www.mongodb.com/
     PORT=port (ex: 3000)
 
 ### 4 . Inicie o servidor
@@ -37,6 +56,7 @@ Para o front-end?
 Clice no link ➜ Local: http://localhost:<port>/
     
 ## 🧾 Estrutura de pastas
+ <pre>```bash
  /
  ├─ back-end/                       # Código responsável pela API e conexão com o banco de dados MongoDB
  │  ├─ api/
@@ -86,7 +106,7 @@ Clice no link ➜ Local: http://localhost:<port>/
  │  package-lock.json               # Controle de versões das dependências
  │  package.json                    # Declaração das dependências e scripts do front-end
  └─ README.md                       # Documentação principal do projeto
-
+</pre>
 
 
 ## 🧠 Funcionalidades

@@ -3,11 +3,13 @@
 This is the backend of a full stack project inspired by Spotify, developed during Hashtag Treinamentos' intensive course. The project uses Node.js, Express, and MongoDB to manage music, artist, and playlist data.
 
 ## 🔗 Technologies Used
+```
 - Node.js
 - Express
 - MongoDB
 - Vite + React (frontend in a separate project)
 - Dotenv
+```
 
 ## 🚀 How to Run Locally
 
@@ -17,20 +19,24 @@ cd repository-name
 
 ### 2. Install dependencies
 npm create vite@latest .
+```
     > Ignore files and continue
     > React
     > Javascript
+```
 
 npm install
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:
+```
 -> public/
 -> src/ (fora das pastas back-end e front-end)
 -> .gitignore
 -> eslint.config.js
 -> index.html
 -> vite.config.js
+```
 
 However, since the project already contains these folders inside the specific back-end and front-end folders, to avoid confusion and keep the project organized, it is recommended to delete these folders and files generated in the root.
 
@@ -38,24 +44,30 @@ This way, you keep the project structure clean and avoid duplicates.
 
 ### 3. Create a .env file
 Based on the .env.example files (in both back-end and front-end folders), create a .env file with your MongoDB connection string and the server port.
+```
     MONGO_URL=your_mongo_connection_string  
         > If you don't have, create an account on MongoDB: https://www.mongodb.com/
     PORT=port_number (e.g., 3000)  
+```
 
-4. Start the servers
+### 4. Start the servers
 Open two terminal windows (Ctrl + Shift + `):
 For the backend:
+```
     cd ./back-end  
     node ./api/api.js  
+```
 You should see: "Server is listening on <port>"
 
 For the frontend:
+```
     cd ./front-end  
     npm run dev  
+```
 Then click the link ➜ Local: http://localhost:<port>/
 
 ## 🧾 Folder Structure
-<pre>```bash
+```
 /
 ├─ back-end/                # Backend code responsible for API and MongoDB connection
 │ ├─ api/
@@ -103,7 +115,7 @@ Then click the link ➜ Local: http://localhost:<port>/
 │ └─ vite.config.js         # Vite configuration
 │
 └─ README.md # Main project documentation
-</pre>
+```
 
 ## 🧠 Features
 
@@ -115,9 +127,11 @@ The interface (built with React + Vite) consumes data exposed by a Node.js + Exp
 
 ### 🧱 Modular Backend Architecture
 The server code is structured with separation of concerns:
+```
 -> Routes: API endpoints definitions
 -> Controllers: Logic for handling requests and responses
 -> Models: Data structure and management (using MongoDB)
+```
 
 ## 📦 Production
 This project is for educational purposes but can be adapted for real-world use with enhancements in security, authentication, and performance.

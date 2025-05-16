@@ -13,8 +13,8 @@ This is the backend of a full stack project inspired by Spotify, developed durin
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
-git clone https://github.com/username/repository-name.git
-cd repository-name
+-> git clone https://github.com/username/repository-name.git
+-> cd repository-name
 
 ### 2. Install dependencies
 npm create vite@latest .

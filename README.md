@@ -13,30 +13,31 @@ This is the backend of a full stack project inspired by Spotify, developed durin
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
-git clone https://github.com/username/repository-name.git
-cd repository-name
+- git clone https://github.com/username/repository-name.git
+- cd repository-name
 
 ### 2. Install dependencies
-npm create vite@latest .
+- npm create vite@latest .
+```
 -> Ignore files and continue
 -> React
 -> Javascript
 -> Ignore files and continue
 -> React
 -> Javascript
+```
 
-npm install
+- npm install
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:
-```
--> public/
--> src/ (out of paths back-end and front-end)
--> .gitignore
--> eslint.config.js
--> index.html
--> vite.config.js
-```
+- public/
+- src/ (out of paths back-end and front-end)
+- .gitignore
+- eslint.config.js
+- index.html
+- vite.config.js
+
 However, since the project already contains these folders inside the specific back-end and front-end folders, to avoid confusion and keep the project organized, it is recommended to delete these folders and files generated in the root.
 
 This way, you keep the project structure clean and avoid duplicates.
@@ -46,12 +47,14 @@ Based on the .env.example files (in both back-end and front-end folders), create
 ```
     MONGO_URL=your_mongo_connection_string  
             > If you don't have, create an account on MongoDB: https://www.mongodb.com/
+    
     PORT=port_number (e.g., 3000)  
 ```
 
 ### 4. Start the servers
 Open two terminal windows ( Ctrl + Shift + ` ):
-```For the backend:
+```
+For the backend:
     cd ./back-end  
     node ./api/api.js  
 You should see: "Server is listening on <port>"

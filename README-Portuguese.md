@@ -56,7 +56,6 @@ Para o front-end?
 Clice no link ➜ Local: http://localhost:<port>/
     
 ## 🧾 Estrutura de pastas
- <pre>```bash
  /
  ├─ back-end/                       # Código responsável pela API e conexão com o banco de dados MongoDB
  │  ├─ api/
@@ -106,7 +105,6 @@ Clice no link ➜ Local: http://localhost:<port>/
  │  package-lock.json               # Controle de versões das dependências
  │  package.json                    # Declaração das dependências e scripts do front-end
  └─ README.md                       # Documentação principal do projeto
-</pre>
 
 
 ## 🧠 Funcionalidades

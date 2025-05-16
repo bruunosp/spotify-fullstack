@@ -8,7 +8,7 @@ This is the backend of a full stack project inspired by Spotify, developed durin
 - Express
 - MongoDB
 - Vite + React (frontend in a separate project)
-- Dotenv
+- dotenv
 ```
 
 ## 🚀 How to Run Locally
@@ -19,21 +19,20 @@ cd repository-name
 
 ### 2. Install dependencies
 npm create vite@latest .
-```
-    > Ignore files and continue
-    > React
-    > Javascript
-    > Ignore files and continue
-    > React
-    > Javascript
-```
+> Ignore files and continue
+> React
+> Javascript
+> Ignore files and continue
+> React
+> Javascript
+
 npm install
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:
 ```
 -> public/
--> src/ (fora das pastas back-end e front-end)
+-> src/ (out of paths back-end and front-end)
 -> .gitignore
 -> eslint.config.js
 -> index.html
@@ -47,25 +46,25 @@ This way, you keep the project structure clean and avoid duplicates.
 Based on the .env.example files (in both back-end and front-end folders), create a .env file with your MongoDB connection string and the server port.
 ```
     MONGO_URL=your_mongo_connection_string  
-        > If you don't have, create an account on MongoDB: https://www.mongodb.com/
+            > If you don't have, create an account on MongoDB: https://www.mongodb.com/
     PORT=port_number (e.g., 3000)  
 ```
 
 ### 4. Start the servers
-Open two terminal windows (Ctrl + Shift + `):
+Open two terminal windows ( Ctrl + Shift + ` ):
 For the backend:
 ```
     cd ./back-end  
     node ./api/api.js  
 ```
-You should see: "Server is listening on <port>"
+You should see: "Server is listening on (port)"
 
 For the frontend:
 ```
     cd ./front-end  
     npm run dev  
 ```
-Then click the link ➜ Local: http://localhost:<port>/
+Then click the link ➜ Local: http://localhost:(port)/
 
 ## 🧾 Folder Structure
 ```

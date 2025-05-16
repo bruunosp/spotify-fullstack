@@ -6,12 +6,12 @@ This README is in English.
 [Leia este documento em português](README_pt-BR.md)
 ## 🔗 Technologies Used
 
-- [Node.js]node.jshttps://nodejs.org/pt
-- [Express]https://expressjs.com/pt-br/
-- [MongoDB]https://www.mongodb.com/
-- [Vite]https://vite.dev/
-- [React]https://vite.dev/
-- [dotenv]https://www.npmjs.com/package/dotenv
+- [Node.js](node.jshttps://nodejs.org/pt)
+- [Express](https://expressjs.com/pt-br/)
+- [MongoDB](https://www.mongodb.com/)
+- [Vite](https://vite.dev/)
+- [React](https://vite.dev/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 
 ## 🚀 How to Run Locally
@@ -48,7 +48,7 @@ This README is in English.
 - npm install cors
 - npm install axios
 
-- Install [node.js]https://nodejs.org/pt (from site)
+- Install [node.js](https://nodejs.org/pt) (from site)
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:

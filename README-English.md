@@ -9,7 +9,10 @@ This is the backend of a full stack project inspired by Spotify, developed durin
 - Vite + React (frontend in a separate project)
 - Dotenv
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
@@ -22,7 +25,10 @@ npm create vite@latest .
     > React
     > Javascript
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 npm install
 
 ### 🧹 Note about automatically generated folders
@@ -34,7 +40,10 @@ When you run the command npm create vite@latest . in the project root folder, so
 -> index.html
 -> vite.config.js
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 However, since the project already contains these folders inside the specific back-end and front-end folders, to avoid confusion and keep the project organized, it is recommended to delete these folders and files generated in the root.
 
 This way, you keep the project structure clean and avoid duplicates.
@@ -45,22 +54,36 @@ Based on the .env.example files (in both back-end and front-end folders), create
         > If you don't have, create an account on MongoDB: https://www.mongodb.com/
     PORT=port_number (e.g., 3000)  
 
+<<<<<<< HEAD
 
 ### 4. Start the servers
+=======
+4. Start the servers
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 Open two terminal windows (Ctrl + Shift + `):
 For the backend:
     cd ./back-end  
     node ./api/api.js  
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 You should see: "Server is listening on <port>"
 
 For the frontend:
     cd ./front-end  
     npm run dev  
+<<<<<<< HEAD
 
 Then click the link ➜ Local: http://localhost:<port>/
 
 ## 🧾 Folder Structure
+=======
+Then click the link ➜ Local: http://localhost:<port>/
+
+## 🧾 Folder Structure
+<pre>```bash
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 /
 ├─ back-end/                # Backend code responsible for API and MongoDB connection
 │ ├─ api/
@@ -108,7 +131,11 @@ Then click the link ➜ Local: http://localhost:<port>/
 │ └─ vite.config.js         # Vite configuration
 │
 └─ README.md # Main project documentation
+<<<<<<< HEAD
 
+=======
+</pre>
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 
 ## 🧠 Features
 
@@ -124,7 +151,10 @@ The server code is structured with separation of concerns:
 -> Controllers: Logic for handling requests and responses
 -> Models: Data structure and management (using MongoDB)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 ## 📦 Production
 This project is for educational purposes but can be adapted for real-world use with enhancements in security, authentication, and performance.
 

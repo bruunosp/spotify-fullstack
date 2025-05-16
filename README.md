@@ -19,24 +19,36 @@ cd repository-name
 
 ### 2. Install dependencies
 npm create vite@latest .
+<<<<<<< HEAD
 ```
     > Ignore files and continue
     > React
     > Javascript
 ```
+=======
+    > Ignore files and continue
+    > React
+    > Javascript
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 
 npm install
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 -> public/
 -> src/ (fora das pastas back-end e front-end)
 -> .gitignore
 -> eslint.config.js
 -> index.html
 -> vite.config.js
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 
 However, since the project already contains these folders inside the specific back-end and front-end folders, to avoid confusion and keep the project organized, it is recommended to delete these folders and files generated in the root.
 
@@ -67,7 +79,11 @@ For the frontend:
 Then click the link ➜ Local: http://localhost:<port>/
 
 ## 🧾 Folder Structure
+<<<<<<< HEAD
 ```
+=======
+<pre>```bash
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 /
 ├─ back-end/                # Backend code responsible for API and MongoDB connection
 │ ├─ api/
@@ -115,7 +131,11 @@ Then click the link ➜ Local: http://localhost:<port>/
 │ └─ vite.config.js         # Vite configuration
 │
 └─ README.md # Main project documentation
+<<<<<<< HEAD
 ```
+=======
+</pre>
+>>>>>>> 9b11effe55c7d4d6774f24f4b71ae7ba17a4afd7
 
 ## 🧠 Features
 

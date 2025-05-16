@@ -4,12 +4,12 @@ Este é o backend de um projeto full stack inspirado no Spotify, desenvolvido du
 
 ## 🔗 Tecnologias utilizadas
 
-- Node.js
-- Express
-- MongoDB
-- Vite + React (frontend em projeto separado)
-- Dotenv
-
+- [Node.js]node.jshttps://nodejs.org/pt
+- [Express]https://expressjs.com/pt-br/
+- [MongoDB]https://www.mongodb.com/
+- [Vite]https://vite.dev/
+- [React]https://vite.dev/
+- [dotenv]https://www.npmjs.com/package/dotenv
 ## 🚀 Como executar localmente
 
 ### 1. Clone o repositório
@@ -31,6 +31,7 @@ Atenção: No primeiro uso, é necessário instalar as dependências separadamen
     - Terminal 3: permaneça na pasta raiz do projeto
     - Execute npm install em cada terminal.
     ** Para as demais instalações, permaneça na pasta raiz do projeto
+    ** Dica: renomeie cada terminal para que possa se localizar facilmente
 
 - npm install
 - npm install dotenv
@@ -39,7 +40,7 @@ Atenção: No primeiro uso, é necessário instalar as dependências separadamen
 - npm install cors
 - npm install axios
 
-- Instale o node.js do site (https://nodejs.org/pt)
+- Instale o [node.js]https://nodejs.org/pt (do site)
 
 ### 🧹 Observação sobre pastas geradas automaticamente
 Ao rodar o comando npm create vite@latest . na pasta raiz do projeto, algumas pastas e arquivos são criados automaticamente na raiz, como:

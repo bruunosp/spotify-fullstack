@@ -3,13 +3,12 @@
 This is the backend of a full stack project inspired by Spotify, developed during Hashtag Treinamentos' intensive course. The project uses Node.js, Express, and MongoDB to manage music, artist, and playlist data.
 
 ## 🔗 Technologies Used
-```
 - Node.js
 - Express
 - MongoDB
 - Vite + React (frontend in a separate project)
 - dotenv
-```
+
 
 ## 🚀 How to Run Locally
 
@@ -19,12 +18,12 @@ cd repository-name
 
 ### 2. Install dependencies
 npm create vite@latest .
-> Ignore files and continue
-> React
-> Javascript
-> Ignore files and continue
-> React
-> Javascript
+-> Ignore files and continue
+-> React
+-> Javascript
+-> Ignore files and continue
+-> React
+-> Javascript
 
 npm install
 
@@ -52,19 +51,17 @@ Based on the .env.example files (in both back-end and front-end folders), create
 
 ### 4. Start the servers
 Open two terminal windows ( Ctrl + Shift + ` ):
-For the backend:
-```
+```For the backend:
     cd ./back-end  
     node ./api/api.js  
+You should see: "Server is listening on <port>"
 ```
-You should see: "Server is listening on (port)"
-
+```
 For the frontend:
-```
     cd ./front-end  
     npm run dev  
+Then click the link ➜ Local: http://localhost:<port>/
 ```
-Then click the link ➜ Local: http://localhost:(port)/
 
 ## 🧾 Folder Structure
 ```
@@ -127,11 +124,9 @@ The interface (built with React + Vite) consumes data exposed by a Node.js + Exp
 
 ### 🧱 Modular Backend Architecture
 The server code is structured with separation of concerns:
-```
 -> Routes: API endpoints definitions
 -> Controllers: Logic for handling requests and responses
 -> Models: Data structure and management (using MongoDB)
-```
 
 ## 📦 Production
 This project is for educational purposes but can be adapted for real-world use with enhancements in security, authentication, and performance.

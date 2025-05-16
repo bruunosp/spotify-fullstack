@@ -72,7 +72,7 @@ Open two terminal windows ( Ctrl + Shift + ` ):
 ```
 For the backend:
     cd ./back-end  
-    node ./api/api.js  
+    node ./api/server.js  
 You should see: "Server is listening on <port>"
 ```
 ```

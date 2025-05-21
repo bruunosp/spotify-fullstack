@@ -14,6 +14,9 @@ This README is in English.
 - [dotenv](https://www.npmjs.com/package/dotenv)
 
 
+---
+
+
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
@@ -22,15 +25,11 @@ This README is in English.
 
 ### 2. Install dependencies
 - npm create vite@latest .
-```
--> Ignore files and continue
--> React
--> Javascript
--> Ignore files and continue
--> React
--> Javascript
-```
-```
+    > Ignore files and continue
+    > React
+    > Javascript
+
+
 ** Important: On your first setup, dependencies must be installed separately for each part of the project:
     - Open three terminals in VSCode (Ctrl + Shift + `).
     - In each terminal, navigate to:
@@ -40,15 +39,20 @@ This README is in English.
     - Run npm install in each terminal.
     ** For future installations, remain in the root folder of the project.
     **Tip: Rename each terminal tab to easily identify and organize your workspace.
-```
+
+```bash
 - npm install
 - npm install dotenv
 - npm install mongodb
 - npm install express
 - npm install cors
 - npm install axios
-
+```
 - Install [node.js](https://nodejs.org/pt) (from site)
+
+
+---
+
 
 ### 🧹 Note about automatically generated folders
 When you run the command npm create vite@latest . in the project root folder, some folders and files are automatically created in the root, such as:
@@ -74,18 +78,24 @@ Based on the .env.example files (in both back-end and front-end folders), create
 
 ### 4. Start the servers
 Open two terminal windows ( Ctrl + Shift + ` ):
+
+- For the backend:
+```bash
+cd ./back-end  
+node ./api/server.js  
 ```
-For the backend:
-    cd ./back-end  
-    node ./api/server.js  
 You should see: "Server is listening on <port>"
+
+- For the frontend:
 ```
+cd ./front-end  
+npm run dev  
 ```
-For the frontend:
-    cd ./front-end  
-    npm run dev  
 Then click the link ➜ Local: http://localhost:<port>/
-```
+
+
+---
+
 
 ## 🧾 Folder Structure
 ```
@@ -137,6 +147,9 @@ Then click the link ➜ Local: http://localhost:<port>/
 │
 └─ README.md # Main project documentation
 ```
+
+---
+
 
 ## 🧠 Features
 
